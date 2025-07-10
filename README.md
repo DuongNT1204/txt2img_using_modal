@@ -1,4 +1,4 @@
-\# Stable Diffusion 1.5 API on Modal
+# Stable Diffusion 1.5 API on Modal
 
 
 
@@ -6,11 +6,11 @@ Deploy Stable Diffusion 1.5 như một FastAPI service trên Modal để tạo �
 
 
 
-\## 🚀 Quick Start
+## 🚀 Quick Start
 
 
 
-\### 1. Cài đặt \& Đăng nhập
+### 1. Cài đặt \& Đăng nhập
 
 ```bash
 
@@ -22,7 +22,7 @@ modal auth new
 
 
 
-\### 2. Deploy
+### 2. Deploy
 
 ```bash
 
@@ -32,17 +32,17 @@ modal deploy main.py
 
 
 
-\### 3. Test
+### 3. Test
 
 ```bash
 
-\# Health check
+# Health check
 
 curl https://your-username--sd15-text2img-api-fastapi-app.modal.run/
 
 
 
-\# Generate image
+# Generate image
 
 curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/generate" \\
 
@@ -56,7 +56,7 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-\## 📖 API Usage
+## 📖 API Usage
 
 
 
@@ -100,7 +100,7 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-\## 🐍 Python Example
+## 🐍 Python Example
 
 ```python
 
@@ -128,23 +128,23 @@ with open("image.png", "wb") as f:
 
 
 
-\## 🔧 Troubleshooting
+## 🔧 Troubleshooting
 
 ```bash
 
-\# Re-auth
+# Re-auth
 
 modal auth login
 
 
 
-\# Check logs
+# Check logs
 
 modal logs sd15-text2img-api
 
 
 
-\# Update Modal
+# Update Modal
 
 pip install --upgrade modal
 
