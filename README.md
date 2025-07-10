@@ -60,11 +60,11 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-\*\*Endpoint:\*\* `POST /generate`
+*\*Endpoint:\*\* `POST /generate`
 
 
 
-\*\*Basic:\*\*
+*\*Basic:\*\*
 
 ```json
 
@@ -74,11 +74,11 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-\*\*Advanced:\*\*
+*\*Advanced:\*\*
 
 ```json
 
-{
+
 
 &nbsp; "prompt": "cyberpunk city at night",
 
@@ -94,7 +94,7 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 &nbsp; "seed": 42
 
-}
+
 
 ```
 
