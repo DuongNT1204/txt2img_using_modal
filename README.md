@@ -60,11 +60,11 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-*\*Endpoint:\*\* `POST /generate`
+Endpoint: `POST /generate`
 
 
 
-*\*Basic:\*\*
+Basic:
 
 ```json
 
@@ -74,7 +74,7 @@ curl -X POST "https://your-username--sd15-text2img-api-fastapi-app.modal.run/gen
 
 
 
-*\*Advanced:\*\*
+Advanced:
 
 ```json
 
